@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href= "../public/css/styles-formulario.css" rel="stylesheet">
+
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <img src="../public/img/shoes-logo-2 1.svg" alt="shoes-logo">
+        <a href="">todos os produtos</a>
+        <a href="">coleções</a>
+        <a href="">outlet</a>
+    </header>
+
+    <!-- Banner-------------------------------------------------------------------- -->
+    <div class="banner">
+        <p>
+            mês de setembro - frete gratis para todo o brasil!
+        </p>    
+    </div>
+
+    <!-- Main--------------------------------------------------------------------- -->
+    <main>
+        
+        <section class="container-formulario">
+
+            <div class="container">
+                <h1>Faça parte do nosso time</h1>
+            </div>
+
+            <form action="#" method="POST" enctype="multipart/form-data">
+
+                <fieldset>
+                    <div class="container">
+                        <label for="nome">Nome:</label>
+                        <input type="text" name="nome" id="nome" class="input-size" required>
+                    </div>
+
+                    <div class="container">
+                        <label for="email">E-mail:</label>
+                        <input type="email" name="email" id="email" class="input-size" required>
+                    </div>
+
+                    <div class="container">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" name="telefone" id="telefone" class="input-size" required>
+                    </div>
+
+                    <div class="container">
+                        <label>Departamentos:</label>
+                        <select name="" id="" class="input-size">
+                          <option value=""></option>
+                          <option value=""></option>
+                        </select>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <div class="container">
+                        <label for="disponibilidade">Disponibilidade:</label><br>
+                        <label for="integral">Integral(8h)</label>
+                        <input class="checkbox" type="checkbox" name="disponibilidade" id="integral">
+    
+                        <label for="meio periodo">Meio período (4h) </label>
+                        <input  class="checkbox" type="checkbox" name="disponibilidade" id="meio periodo">
+    
+                        <label for="freelancer">Freelancer</label>
+                        <input  class="checkbox" type="checkbox" name="disponibilidade" id="freelancer">
+                    </div>
+
+                    <div class="container">
+                        <label>Qual a melhor forma de entrarmos em contato com você?</label><br>
+                        <label for="email">E-mail</label>
+                        <input class="radio" type="radio" name="contato" id="email">
+    
+                        <label for="ligacao">Ligação</label>
+                        <input class="radio" type="radio" name="contato" id="ligacao">
+    
+                        <label for="whatsapp">WhatsApp</label>
+                        <input class="radio" type="radio" name="contato" id="whatsapp">
+                    </div>
+
+                    <div class="container">
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea name="mensagem" id="mensagem" rows="2" cols="48"></textarea>
+                    </div>
+
+                    <div class="container">
+                        <label for="upload" class="btn-upload">Currículo</label>
+                        <input type="file" id="upload" accept="image/*">
+                    </div>
+
+                </fieldset>
+    
+
+                <fieldset>
+                    <div class="container">
+                        <button type="submit">Enviar</button>
+                    </div>
+                </fieldset>
+
+            </form>
+
+        </section>
+
+        <div class="container-text">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br><br>
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+        </div>
+
+    </main>
+    <!-- End-Main-------------------------------------------------------------------- -->
+
+    <footer>
+        <div class="container-logo-footer">
+            <img src="../public/img/shoes-logo-rodape.svg" alt="">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+        </div>
+
+        
+            <ul class="list-categoria" type="none">
+                <li class="titulo-lista-footer">categorias</li>
+                <li><a href="">sandálias</a></li>
+                <li><a href="">botas</a></li>
+                <li><a href="">tênis</a></li>
+                <li><a href="">oxford</a></li>
+                <li><a href="">coturnos</a></li>
+            </ul>
+        
+            <ul class="list-institucional" type="none">
+                <li class="titulo-lista-footer">institucional</li>
+                <li><a href="">sobre nós</a></li>
+                <li><a href="">perguntas frequentes</a></li>
+                <li><a href="">politica de privacidade</a></li>
+                <li><a href="">rastreamento de pedidos</a></li>
+                <li><a href="">trabalhe conosco</a></li>
+                <li><a href="">contato</a></li>
+            </ul>
+
+    </footer>
+
+</body>
+
+</html>
+
